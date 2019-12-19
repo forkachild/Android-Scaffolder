@@ -36,4 +36,5 @@ A basic MVVM template is provided for brevity. Creating one is pretty easy, in t
 - Remove the **.gradle**, **.idea** and **gradle** directories
 - Ensure that no private files like **google-services.json** and fields like **api_key** is removed
 - Rename the root directory of the project to **{{NAME}}**
+- Place the same inside a directory with the name of the template you choose
 - Move it to the same directory as **scaffold.js**
