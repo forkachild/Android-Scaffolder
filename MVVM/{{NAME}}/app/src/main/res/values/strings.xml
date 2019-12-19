@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">{{NAME}}h</string>
+    <string name="facebook_app_id">facebook_app_id</string>
+    <string name="fb_login_protocol_scheme">facebook_login_protocol_scheme</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="continu">Continue</string>
+</resources>

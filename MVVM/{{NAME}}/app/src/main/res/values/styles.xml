@@ -1,0 +1,50 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppTheme.HintTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorBlue</item>
+    </style>
+
+    <style name="AppTheme.Button">
+        <item name="android:background">@drawable/dark_grey_rounded_ripple</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.Button.Medium" parent="AppTheme.Button">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTheme.Button.Big" parent="AppTheme.Button">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.Button.Medium.Facebook" parent="AppTheme.Button.Medium">
+        <item name="android:background">@drawable/facebook_rounded_ripple</item>
+    </style>
+
+    <style name="AppTheme.Button.Medium.Google" parent="AppTheme.Button.Medium">
+        <item name="android:background">@drawable/google_rounded_ripple</item>
+    </style>
+
+    <style name="AppTheme.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorBlue</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="hintTextAppearance">@style/AppTheme.HintTextAppearance</item>
+    </style>
+
+    <style name="AppTheme.TextInputEditText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

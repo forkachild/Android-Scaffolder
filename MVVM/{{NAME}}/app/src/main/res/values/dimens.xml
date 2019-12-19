@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="small_corner_radius">4dp</dimen>
+    <dimen name="big_corner_radius">8dp</dimen>
+
+    <dimen name="margin_title">96dp</dimen>
+    <dimen name="margin_nav_top">32dp</dimen>
+
+</resources>

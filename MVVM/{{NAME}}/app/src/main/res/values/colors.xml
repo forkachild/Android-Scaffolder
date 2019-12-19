@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorWhite</color>
+    <color name="colorPrimaryDark">@color/colorTransparent</color>
+    <color name="colorAccent">@color/colorBlue</color>
+
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000</color>
+
+    <color name="colorRippleLight">#33FFFFFF</color>
+    <color name="colorRippleBlue">#331D49FF</color>
+
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorFacebook">#526CFF</color>
+    <color name="colorGoogle">#FF5252</color>
+
+    <color name="colorDarkGray">#3B3B3B</color>
+    <color name="colorBlue">#1D49FF</color>
+
+</resources>
