@@ -32,9 +32,9 @@ A basic MVVM template is provided for brevity. Creating one is pretty easy, in t
 - Press **Ctrl + Shift + R** on Windows/Linux or **Cmd + Shift + R** on a Mac
 - Replace all occurences of **Sample** with **{{NAME}}**
 - Replace all occurences of **com.example.sample** with **{{PACKAGE}}**
-- Change the directory structure of **com/example/sample** to **{{PACKAGE}}** (e.g java/com/example/sample/SampleActivity.java will be java/{{PACKAGE}}/SampleActivity.java)
+- Change the directory structure of **com/example/sample** to **{{PACKAGE}}** (e.g java/**com/example/sample**/SampleActivity.java will be java/**{{PACKAGE}}**/SampleActivity.java)
 - Remove the **.gradle**, **.idea** and **gradle** directories
-- Ensure that no private files like **google-services.json** and fields like **api_key** is removed
+- Ensure that private files like **google-services.json** and fields like **api_key** is removed as you are making it a generic scaffold
 - Rename the root directory of the project to **{{NAME}}**
-- Place the same inside a directory with the name of the template you choose
+- Place the same inside a directory with the **name** of the template you choose
 - Move it to the same directory as **scaffold.js**
